@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:background="#A69B30"
+
+    tools:context="MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Team A"
+        android:textSize="70dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvdisp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:textColor="#1A5CCD"
+        android:layout_marginTop="30dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/btn3point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFC107"
+        android:text="+ 3 point"
+        android:textColor="#ED0B0B"
+        android:textSize="30dp"></Button>
+
+    <Button
+        android:id="@+id/btn2point"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+ 2 point"
+        android:textSize="30dp"
+        android:backgroundTint="#FFC107"
+        android:textColor="#ED0B0B"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"></Button>
+
+    <Button
+        android:id="@+id/btnfreehit"
+        android:layout_width="match_parent"
+        android:backgroundTint="#FFC107"
+        android:layout_height="wrap_content"
+        android:text="+ free hit"
+        android:textSize="30dp"
+        android:textColor="#ED0B0B"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"></Button>
+
+    <Button
+        android:backgroundTint="#FFC107"
+        android:id="@+id/btnreset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:textSize="30dp"
+        android:textColor="#ED0B0B"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"></Button>
+</LinearLayout>

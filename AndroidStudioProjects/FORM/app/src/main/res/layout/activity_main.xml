@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp">
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sign up"
+            android:textSize="40dp"></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter name"
+            android:layout_marginTop="200dp"
+            android:textSize="20dp"
+            android:id="@+id/name"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="enter password"
+            android:textSize="20dp"
+            android:id="@+id/pass"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="mobile no."
+            android:textSize="20dp"
+            android:id="@+id/mob"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email id"
+            android:textSize="20dp"
+            android:id="@+id/email"></EditText>
+
+        <RadioGroup
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/r_grp"
+            android:padding="10px"
+            android:orientation="horizontal">
+        <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="male"
+            android:textSize="20dp"
+            android:id="@+id/r_male"
+            ></RadioButton>
+           <RadioButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Female"
+            android:textSize="20dp"
+               android:id="@+id/r_female"></RadioButton>
+        </RadioGroup>
+        <TextView
+
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="hobbies"
+            android:textSize="20dp"></TextView>
+
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="singing"
+            android:id="@+id/sing">
+        </CheckBox>
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="dance"
+            android:id="@+id/dance">
+        </CheckBox>
+        <CheckBox
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="cricket"
+            android:id="@+id/cricket">
+        </CheckBox>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="submit"
+        android:layout_gravity="center"
+        android:id="@+id/submit">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        android:layout_weight="0"
+        android:layout_gravity="center"
+        android:id="@+id/reset"
+        ></Button>
+    </LinearLayout>
+ </ScrollView>
+</LinearLayout>
